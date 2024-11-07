@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: spring-boot-migration-sandbox
+  activemq:
+    broker-url: tcp://localhost:61616
+    user: admin
+    password: admin
+  jms:
+    pub-sub-domain: false
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, info
