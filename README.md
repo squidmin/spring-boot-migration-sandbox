@@ -1,12 +1,12 @@
 # spring-boot-migration-sandbox
 
-## Module structure
+## Modules
 
 | Module name | Section name                      |
 |-------------|-----------------------------------|
 | `section_1` | **Common migration requirements** |
 
-### Running JaCoCo
+### Generate test coverage reports using JaCoCo
 
 To generate test coverage reports using JaCoCo, run the following command:
 
