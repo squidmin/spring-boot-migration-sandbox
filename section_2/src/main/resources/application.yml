@@ -1,0 +1,13 @@
+spring:
+  redis:
+    host: localhost
+
+# Custom property to test autoconfiguration
+custom:
+  feature:
+    enabled: true
+
+management:
+  endpoint:
+    info:
+      enabled: true

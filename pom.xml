@@ -29,6 +29,7 @@
 
     <modules>
         <module>section_1</module>
+        <module>section_2</module>
     </modules>
 
     <scm>
