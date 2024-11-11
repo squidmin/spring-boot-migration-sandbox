@@ -30,6 +30,7 @@
     <modules>
         <module>section_1</module>
         <module>section_2</module>
+        <module>section_3</module>
     </modules>
 
     <scm>
@@ -163,11 +164,6 @@
                         </goals>
                         <configuration>
                             <excludes>
-                                <exclude>org/squidmin/java/spring/springbootmigrationsandbox/*</exclude>
-                                <exclude>org/squidmin/java/spring/springbootmigrationsandbox/config/*</exclude>
-                                <exclude>org/squidmin/java/spring/springbootmigrationsandbox/models/*</exclude>
-                                <exclude>org/squidmin/java/spring/springbootmigrationsandbox/security/*</exclude>
-                                <exclude>org/squidmin/java/spring/springbootmigrationsandbox/controllers/CustomStatusEndpoint.class</exclude>
                             </excludes>
                         </configuration>
                     </execution>

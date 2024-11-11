@@ -8,10 +8,9 @@
         <groupId>org.squidmin.java.spring</groupId>
         <artifactId>spring-boot-migration-sandbox</artifactId>
         <version>0.0.1-SNAPSHOT</version>
-        <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>common-migration-requirements</artifactId>
+    <artifactId>classloader_classnotfoundexception_issues</artifactId>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
@@ -55,11 +54,6 @@
                         </goals>
                         <configuration>
                             <excludes>
-                                <exclude>org/squidmin/java/spring/springbootmigrationsandbox/*</exclude>
-                                <exclude>org/squidmin/java/spring/springbootmigrationsandbox/config/*</exclude>
-                                <exclude>org/squidmin/java/spring/springbootmigrationsandbox/models/*</exclude>
-                                <exclude>org/squidmin/java/spring/springbootmigrationsandbox/security/*</exclude>
-                                <exclude>org/squidmin/java/spring/springbootmigrationsandbox/controllers/CustomStatusEndpoint.class</exclude>
                             </excludes>
                         </configuration>
                     </execution>
