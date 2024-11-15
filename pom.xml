@@ -28,9 +28,10 @@
     </developers>
 
     <modules>
-        <module>section_1</module>
-        <module>section_2</module>
-        <module>section_3</module>
+        <module>section_01</module>
+        <module>section_02</module>
+        <module>section_03</module>
+        <module>section_04</module>
     </modules>
 
     <scm>
