@@ -9,6 +9,7 @@
 | `section_03` | **ClassLoader `ClassNotFoundException` issues** |
 | `section_04` | **CORS configuration**                          |
 | `section_05` | **`cxf-xjc-plugin`**                            |
+| `section_06` | **Hibernate dialect for Oracle**                |
 
 ### Generate test coverage reports
 
